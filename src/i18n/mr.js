@@ -1,0 +1,198 @@
+// Marathi interface strings (मराठी व्यावसायिकांसाठी सोपी व सुटसुटीत भाषा)
+
+export default {
+  appName: 'बाकी (Baaki)',
+  tagline: 'लहान व्यवसायांसाठी बिल वसुली व कॅश फ्लो सुरक्षा प्रणाली',
+
+  nav: {
+    dashboard: 'डॅशबोर्ड (Dashboard)',
+    invoices: 'बिल यादी (Invoices)',
+    newInvoice: 'नवीन बिल तयार करा',
+    customers: 'ग्राहक खतावणी',
+    todayFollowups: 'आजची वसुली (Follow-ups)',
+    escalationLadder: 'वसुली शिडी (Ladder)',
+    inbox: 'इनबॉक्स (तक्रारी व दावे)',
+    payments: 'बँक ताळमेळ (Reconcile)',
+    cashForecast: '१३-आठवड्यांचा रोख अंदाज',
+    chaseFirst: 'आधी कोणाला विचारायचे',
+    documents: 'पुरावा दस्तऐवज (Evidence)',
+    scanInvoice: 'फोटोवरून बिल वाचा (AI)',
+    settings: 'सेटिंग्ज',
+    resetDemo: 'डेमो रीसेट करा',
+    demoDate: 'डेमो तारीख'
+  },
+
+  dashboard: {
+    title: 'व्यवसायाची रोख स्थिती व येणे बाकी',
+    subtitle: 'उधारीच्या बिलांची नोंद ठेवा, वेळेवर स्मरणपत्रे पाठवा आणि पैशांची टंचाई येण्यापूर्वी सावध व्हा',
+    toCollect: 'एकूण वसूल करावयाची रक्कम',
+    toCollectTooltip: 'ग्राहकांकडील एकूण बाकी येणे (Accounts Receivable)',
+    overdue: 'थकीत रक्कम (Overdue)',
+    overdueTooltip: '३० दिवसांची मुदत संपलेली थकीत बिले',
+    expectedWeek: 'या आठवड्यात अपेक्षित रक्कम',
+    expectedMonth: 'या महिन्यात अपेक्षित रक्कम',
+    billsDue30Days: 'पुढील ३० दिवसांचे खर्च',
+    billsDueTooltip: 'कर्मचाऱ्यांचे पगार, भाडे, कच्चा माल देयके आणि GST कर',
+    bankCash: 'बँकेत उपलब्ध शिल्लक',
+    lowestForecast: 'अंदाजातील सर्वात कमी रोख पातळी',
+    ageingTitle: 'थकीत मुदतीनुसार वर्गीकरण (Ageing)',
+    notYetDue: 'मुदत बाकी आहे',
+    days1_30: '१-३० दिवस थकीत',
+    days31_60: '३१-६० दिवस थकीत',
+    days61_90: '६१-९० दिवस थकीत',
+    days90Plus: '९०+ दिवस अति-थकीत',
+    topChaseTitle: 'आज सर्वात आधी पाठपुरावा करायची ५ बिले',
+    viewAllChase: 'पूर्ण प्राधान्य यादी पहा',
+    quickActions: 'जलद कृती'
+  },
+
+  invoices: {
+    title: 'बिले व पावत्या',
+    subtitle: 'ग्राहकांची सर्व कर बिले (Tax Invoices), अचूक GST हिशोब आणि ऑडिट टाइमलाइन',
+    searchPlaceholder: 'बिल क्रमांक किंवा ग्राहकाच्या नावाने शोधा...',
+    allStatuses: 'सर्व स्थिती',
+    allCustomers: 'सर्व ग्राहक',
+    filterOverdue: 'सर्व थकीत कालावधी',
+    statusDraft: 'मसुदा (Draft)',
+    statusSent: 'पाठवले',
+    statusDueSoon: 'लवकरच देय',
+    statusOverdue: 'थकीत (Overdue)',
+    statusPartPaid: 'अंशतः भरलेले',
+    statusPaid: 'पूर्ण भरलेले',
+    statusDisputed: 'तक्रार असलेले',
+    colInvoiceNo: 'बिल क्रमांक',
+    colCustomer: 'ग्राहक',
+    colDate: 'तारीख',
+    colDue: 'देय तारीख',
+    colTaxable: 'करपात्र मूल्य',
+    colTax: 'GST',
+    colTotal: 'एकूण रक्कम',
+    colBalance: 'बाकी रक्कम',
+    colStatus: 'स्थिती',
+    colActions: 'कृती',
+    viewInvoice: 'कर बिल पहा',
+    demandLetter: 'मागणी पत्र (Demand Letter)',
+    evidencePack: 'पुरावा संच (Pack)',
+    timeline: 'घटनाक्रम (Timeline)'
+  },
+
+  newInvoice: {
+    title: 'नवीन टॅक्स इनव्हॉइस तयार करा',
+    subtitle: 'महाराष्ट्रात CGST/SGST किंवा परराज्यासाठी IGST चा स्वयंचलित अचूक हिशोब',
+    customerSection: '१. ग्राहकाचा तपशील',
+    selectCustomer: 'नोंदणीकृत ग्राहक निवडा',
+    orAddNew: 'किंवा नवीन ग्राहक जोडा',
+    customerName: 'ग्राहकाचे व्यावसायिक नाव',
+    customerGstin: 'ग्राहकाचा GSTIN (१५ अक्षरी)',
+    state: 'राज्य व कोड',
+    placeOfSupply: 'सप्लायचे ठिकाण (Place of Supply)',
+    creditDays: 'उधारीची मुदत (दिवस)',
+    itemsSection: '२. पॅकेजिंग मालाचा तपशील',
+    addItem: '+ नवीन वस्तू जोडा',
+    hsnCode: 'HSN / SAC कोड',
+    description: 'मालाचे वर्णन',
+    quantity: 'नग / प्रमाण',
+    unit: 'एकक (Unit)',
+    rate: 'दर (₹)',
+    discount: 'सूट (₹)',
+    gstRate: 'GST %',
+    taxableVal: 'करपात्र रक्कम',
+    cgst: 'CGST',
+    sgst: 'SGST',
+    igst: 'IGST',
+    total: 'ओळीची एकूण रक्कम',
+    summarySection: '३. सारांश व QR कोड',
+    roundOff: 'राऊंड ऑफ (Round Off)',
+    grandTotal: 'अंतिम एकूण रक्कम',
+    amountInWords: 'रक्कम अक्षरी',
+    upiQrTitle: 'काउंटर UPI QR कोड',
+    saveDraft: 'मसुदा जतन करा',
+    sendInvoice: 'बिल जारी करा व पाठवा',
+    printPreview: 'प्रिंटसाठी A4 पूर्वावलोकन'
+  },
+
+  customers: {
+    title: 'ग्राहक खतावणी (Directory)',
+    subtitle: '१२ व्यावसायिक ग्राहक, ६ महिन्यांचा पेमेंट इतिहास आणि विश्वासार्हता श्रेणी',
+    gradeA: 'श्रेणी A: अत्यंत विश्वासू (वेळेवर देयक)',
+    gradeB: 'श्रेणी B: मध्यम (७-१५ दिवस विलंब)',
+    gradeC: 'श्रेणी C: जोखमीचे (३०+ दिवस विलंब)',
+    avgDelay: 'सरासरी विलंब',
+    onTime: 'वेळेवर भरण्याचा दर',
+    totalOwed: 'एकूण बाकी',
+    creditLimit: 'क्रेडिट मर्यादा',
+    phone: 'फोन',
+    email: 'ईमेल',
+    gstin: 'GSTIN'
+  },
+
+  todayFollowups: {
+    title: 'आजची वसुली स्मरणपत्रे',
+    subtitle: 'वसुली शिडी आणि ग्राहकांच्या देयक सवयींनुसार आज पाठवायचे संदेश',
+    overdueDays: '{days} दिवस थकीत',
+    dueToday: 'आजच मुदत आहे',
+    sendWhatsapp: 'WhatsApp वर पाठवा',
+    sendEmail: 'ईमेल पाठवा',
+    sendSms: 'SMS पाठवा',
+    markSent: 'पाठवले म्हणून नोंदवा',
+    snooze: 'पुढे ढकला (Snooze)',
+    promiseToPay: 'देयकाचे वचन (Promise to Pay)',
+    promisedDate: 'ग्राहकाने दिलेली देयक तारीख'
+  },
+
+  reconciliation: {
+    title: 'बँक स्टेटमेंट ताळमेळ (Reconciliation)',
+    subtitle: 'बँकेत जमा झालेल्या रकमेचा बिलांशी ताळमेळ, TDS कपात व ६ प्रकारच्या विसंगतींची पडताळणी',
+    importCsv: 'bank-statement.csv आयात करा',
+    loadSample: 'नमुना स्टेटमेंट लोड करा',
+    caseExact: 'अचूक ताळमेळ (Exact Match)',
+    casePart: 'अंशतः पेमेंट (Part Payment)',
+    caseMultiple: 'एकाच पेमेंटमध्ये दोन बिले पूर्ण',
+    caseTds: 'संभाव्य TDS कपात (१%, २% किंवा १०%)',
+    caseOverpay: 'अतिरिक्त पेमेंट (Overpayment)',
+    caseUnmatched: 'अनामिक जमा रक्कम (Unmatched)',
+    confirmMatch: 'खात्री करा व खतावणीत नोंदवा',
+    confirmed: 'खतावणीत नोंदवले'
+  },
+
+  cashForecast: {
+    title: '१३-आठवड्यांचा रोख अंदाज (Cash Forecast)',
+    subtitle: 'बिलांची मुदत आणि ग्राहकांच्या सरासरी विलंबानुसार पुढील रोख रकमेचा अंदाज',
+    openingCash: 'सुरुवातीची रोख शिल्लक',
+    inflows: 'अपेक्षित येणे (Inflows)',
+    outflows: 'नियोजित खर्च (Outflows)',
+    closingCash: 'अखेरची शिल्लक (Closing Cash)',
+    safetyBuffer: 'सुरक्षा राखीव निधी (₹२,००,०००)',
+    bufferWarning: '⚠️ सावधान: आठवडा {week} मध्ये रोख शिल्लक सुरक्षा निधीच्या खाली जाईल!',
+    whatIfTitle: 'काय होईल जर... (What-If परिस्थिती)',
+    whatIfCustomerDelay: 'मोठ्या ग्राहकाचे पेमेंट ३० दिवस उशिरा आले',
+    whatIfBigOrder: 'तातडीची नवीन मोठी कार्टन ऑर्डर मिळाली (+₹२.५ लाख)',
+    whatIfSupplierDelay: 'पेपर सप्लायरकडून १४ दिवसांची मुदतवाढ मिळाली',
+    gapCoversTitle: 'ही तूट भरून काढू शकणारी प्रलंबित बिले'
+  },
+
+  chaseFirst: {
+    title: 'आधी कोणाकडे पाठपुरावा करायचा (स्मार्ट स्कोअर)',
+    subtitle: 'रक्कम, थकीत दिवस, ग्राहकाची पत आणि कॅश तुटीवर होणारा परिणाम यानुसार प्राधान्य',
+    score: 'प्राधान्य गुण',
+    reason: 'आजच पाठपुरावा करण्याचे कारण'
+  },
+
+  documents: {
+    title: 'पुरावा दस्तऐवज व संच (Evidence Pack)',
+    subtitle: 'प्रत्येक बिलाची मूळ प्रत, पाठवलेली स्मरणपत्रे, मागणी पत्रे आणि बँक पावत्यांचा अधिकृत संच',
+    downloadPack: 'संपूर्ण पुरावा संच प्रिंट करा (A4)'
+  },
+
+  settings: {
+    title: 'कंपनी प्रोफाइल व सेटिंग्स',
+    subtitle: 'नाव, GST तपशील, बँक खाते, उद्यम नोंदणी आणि वसुली शिडी नियम',
+    saveProfile: 'बदल सेव्ह करा',
+    language: 'भाषा (Language)',
+    textSize: 'फॉन्ट आकार (Text Size)',
+    normalText: 'सामान्य (16px)',
+    largeText: 'मोठा (18px)',
+    xlText: 'अति मोठा (20px)',
+    demoDateSimulator: 'डेमो तारीख सिम्युलेटर (IST)'
+  }
+};

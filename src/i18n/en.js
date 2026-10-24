@@ -1,0 +1,198 @@
+// English interface strings (plain business language, no jargon)
+
+export default {
+  appName: 'Baaki',
+  tagline: 'The Small Business Invoice Chase & Cash Shortage Defender',
+
+  nav: {
+    dashboard: 'Dashboard',
+    invoices: 'Invoices',
+    newInvoice: 'New Invoice',
+    customers: 'Customers',
+    todayFollowups: 'Today Follow-ups',
+    escalationLadder: 'Escalation Ladder',
+    inbox: 'Inbox',
+    payments: 'Payment Match',
+    cashForecast: '13-Week Cash Forecast',
+    chaseFirst: 'Chase These First',
+    documents: 'Evidence Pack',
+    scanInvoice: 'Scan Photo',
+    settings: 'Settings',
+    resetDemo: 'Reset Demo',
+    demoDate: 'Demo Date'
+  },
+
+  dashboard: {
+    title: 'Business Cash Health & Receivables',
+    subtitle: 'Track unpaid invoices, follow up on time, and see cash gaps before they hit',
+    toCollect: 'Money to Collect',
+    toCollectTooltip: 'Total outstanding unpaid customer balance (Accounts Receivable)',
+    overdue: 'Overdue Amount',
+    overdueTooltip: 'Invoices past their 30-day credit term',
+    expectedWeek: 'Expected This Week',
+    expectedMonth: 'Expected This Month',
+    billsDue30Days: 'Upcoming Bills (Next 30 Days)',
+    billsDueTooltip: 'Salaries, rent, supplier invoices & GST liability',
+    bankCash: 'Cash in Bank',
+    lowestForecast: 'Lowest Point in Forecast',
+    ageingTitle: 'Overdue Ageing Breakdown',
+    notYetDue: 'Not Yet Due',
+    days1_30: '1-30 Days Overdue',
+    days31_60: '31-60 Days Overdue',
+    days61_90: '61-90 Days Overdue',
+    days90Plus: '90+ Days Overdue',
+    topChaseTitle: 'Top 5 Invoices to Chase Today',
+    viewAllChase: 'View Prioritized Chase List',
+    quickActions: 'Quick Actions'
+  },
+
+  invoices: {
+    title: 'Invoices & Slips',
+    subtitle: 'All customer invoices with real-time tax calculation and audit timeline',
+    searchPlaceholder: 'Search by invoice number, customer name...',
+    allStatuses: 'All Statuses',
+    allCustomers: 'All Customers',
+    filterOverdue: 'All Overdue Ranges',
+    statusDraft: 'Draft',
+    statusSent: 'Sent',
+    statusDueSoon: 'Due Soon',
+    statusOverdue: 'Overdue',
+    statusPartPaid: 'Part Paid',
+    statusPaid: 'Paid',
+    statusDisputed: 'Disputed',
+    colInvoiceNo: 'Invoice No',
+    colCustomer: 'Customer',
+    colDate: 'Date',
+    colDue: 'Due Date',
+    colTaxable: 'Taxable',
+    colTax: 'GST',
+    colTotal: 'Total',
+    colBalance: 'Balance Owed',
+    colStatus: 'Status',
+    colActions: 'Actions',
+    viewInvoice: 'View Tax Invoice',
+    demandLetter: 'Demand Letter',
+    evidencePack: 'Evidence Pack',
+    timeline: 'Timeline'
+  },
+
+  newInvoice: {
+    title: 'Create New Tax Invoice',
+    subtitle: 'GST-compliant invoice generation with automatic CGST/SGST or IGST logic',
+    customerSection: '1. Customer Details',
+    selectCustomer: 'Select Existing Customer',
+    orAddNew: 'Or Add New Customer',
+    customerName: 'Customer Trade Name',
+    customerGstin: 'Customer GSTIN (15 Digits)',
+    state: 'State & Code',
+    placeOfSupply: 'Place of Supply',
+    creditDays: 'Credit Terms (Days)',
+    itemsSection: '2. Packaging Line Items',
+    addItem: '+ Add Line Item',
+    hsnCode: 'HSN / SAC Code',
+    description: 'Item Description',
+    quantity: 'Qty',
+    unit: 'Unit',
+    rate: 'Rate (₹)',
+    discount: 'Discount (₹)',
+    gstRate: 'GST %',
+    taxableVal: 'Taxable Value',
+    cgst: 'CGST',
+    sgst: 'SGST',
+    igst: 'IGST',
+    total: 'Line Total',
+    summarySection: '3. Summary & Payment Link',
+    roundOff: 'Round Off',
+    grandTotal: 'Grand Total',
+    amountInWords: 'Amount in Words',
+    upiQrTitle: 'Counter Scan & Pay UPI QR Code',
+    saveDraft: 'Save as Draft',
+    sendInvoice: 'Generate & Dispatch Invoice',
+    printPreview: 'Print-Ready A4 Preview'
+  },
+
+  customers: {
+    title: 'Customer Credit Directory',
+    subtitle: '12 business customers with 6 months payment history & reliability grades',
+    gradeA: 'Grade A: Reliable (On-time)',
+    gradeB: 'Grade B: Moderate (7-15 days delay)',
+    gradeC: 'Grade C: High Risk (30+ days delay)',
+    avgDelay: 'Avg Delay',
+    onTime: 'On-time Rate',
+    totalOwed: 'Total Owed',
+    creditLimit: 'Credit Limit',
+    phone: 'Phone',
+    email: 'Email',
+    gstin: 'GSTIN'
+  },
+
+  todayFollowups: {
+    title: "Today's Payment Follow-ups",
+    subtitle: 'Actionable reminders due today based on escalation ladder and customer delay history',
+    overdueDays: '{days} days overdue',
+    dueToday: 'Due Today',
+    sendWhatsapp: 'Send via WhatsApp',
+    sendEmail: 'Send Email',
+    sendSms: 'Send SMS',
+    markSent: 'Mark as Sent',
+    snooze: 'Snooze',
+    promiseToPay: 'Promise to Pay',
+    promisedDate: 'Customer promised date'
+  },
+
+  reconciliation: {
+    title: 'Bank Statement Payment Reconciliation',
+    subtitle: 'Match bank deposits against invoices with 6-case anomaly detection and TDS check',
+    importCsv: 'Import bank-statement.csv',
+    loadSample: 'Load Sample Statement',
+    caseExact: 'Exact Match',
+    casePart: 'Part Payment',
+    caseMultiple: 'Multiple Invoices Settled',
+    caseTds: 'Possible TDS Deduction (1%, 2% or 10%)',
+    caseOverpay: 'Overpayment',
+    caseUnmatched: 'Unmatched Deposit',
+    confirmMatch: 'Confirm & Mark Ledger',
+    confirmed: 'Confirmed in Ledger'
+  },
+
+  cashForecast: {
+    title: '13-Week Cash Flow Forecast',
+    subtitle: 'Predict weekly cash availability based on invoice due dates + customer payment delays',
+    openingCash: 'Opening Cash',
+    inflows: 'Expected Inflows',
+    outflows: 'Scheduled Outflows',
+    closingCash: 'Closing Cash',
+    safetyBuffer: 'Safety Buffer',
+    bufferWarning: '⚠️ Cash shortfall alert in Week {week}! Balance drops below ₹2,00,000 buffer.',
+    whatIfTitle: 'What-If Stress Test Scenarios',
+    whatIfCustomerDelay: 'Customer pays 30 days late',
+    whatIfBigOrder: 'Emergency packaging order received (+₹2.5L)',
+    whatIfSupplierDelay: 'Negotiate 14-day extension with paper supplier',
+    gapCoversTitle: 'Invoices that cover this cash gap if collected'
+  },
+
+  chaseFirst: {
+    title: 'Chase These First (Smart Priority Matrix)',
+    subtitle: 'Score based on amount, overdue days, customer reliability, and impact on cash shortfall',
+    score: 'Priority Score',
+    reason: 'Why chase this today'
+  },
+
+  documents: {
+    title: 'Documents & Evidence Pack',
+    subtitle: 'One timeline per invoice holding tax invoice, demand letters, reminders sent, and proof',
+    downloadPack: 'Download Complete Evidence Pack (A4)'
+  },
+
+  settings: {
+    title: 'Business Profile & App Settings',
+    subtitle: 'Configure company details, GST registration, bank information, and escalation rules',
+    saveProfile: 'Save Changes',
+    language: 'Language',
+    textSize: 'Text Size',
+    normalText: 'Normal (16px)',
+    largeText: 'Large (18px)',
+    xlText: 'Extra Large (20px)',
+    demoDateSimulator: 'Simulated Demo Date (IST)'
+  }
+};
